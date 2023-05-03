@@ -16,7 +16,7 @@ function validation(){
     }
 
     if (error == false){
-        let output = ` <div>
+        let output = ` <div class="details">
         <h1>user information</h1>
         <div><p>First Name</p><p>${obj.firstname}</p></div>
         <div><p>Last Name</p><p>${obj.lastname}</p></div>
